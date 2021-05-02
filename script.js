@@ -133,11 +133,11 @@ $(function() {
    //Quick mode
     $("#mode").click(function() {
         if (mode==0) {
-            $(this).html("Quick Mode (ON)");
+            $(this).html("Mode Cepat (ON)");
             mode=1;
         }
         else {
-            $(this).html("Quick Mode (OFF)");
+            $(this).html("Mode Cepat (OFF)");
             mode=0;
         }
     });
@@ -166,9 +166,10 @@ $(function() {
    //Explaining Quick mode 
     $("#ex").click(function() {
         Swal.fire({
-          icon: 'info',
-          title: 'Quick Mode',
-          text: 'When Quick Mode is on, system will automatically detect the right answer',
+          icon: "info",
+          title: "Mode Cepat",
+          text:
+            "Saat Mode Cepat aktif, sistem akan secara otomatis mendeteksi jawaban yang benar",
           showConfirmButton: true,
         });
     });
